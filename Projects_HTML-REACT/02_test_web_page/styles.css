@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgreen;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+#aboutme_site_languages {
+  text-align: center;
+}
+
+#aboutme_title {
+  text-align: center;
+}
+
+#aboutme_lore {
+  margin: 1.5% 1.5% 1.5% 1.5%;
+  text-align: justify;
+}
+
+#aboutme_details {
+  margin: 1.5% auto 1.5% auto;
+  text-align: center;
+  display: flex;
+}
+
+#aboutme_details_phone {
+  width: 33%;
+}
+
+#aboutme_details_email {
+  width: 33%;
+}
+
+#aboutme_details_github {
+  width: 33%;
+}
+
+#skills_details{
+  display: flex;
+  text-align: justify;
+  margin: 0% 1.5% 0% 1.5%;
+  height: auto;
+}
+
+#skills{
+  width: 30%;
+}
+
+#experience{
+  width: 70%;
+  padding-left: 3%;
+}
