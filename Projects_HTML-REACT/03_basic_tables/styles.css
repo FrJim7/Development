@@ -1,0 +1,60 @@
+body{
+  max-width: 1080px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+  margin: auto;
+}
+
+#job-table {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+.jobs-header-row th{
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: lightgray;
+  text-align: left;
+}
+
+.jobs-data-row td {
+  border-right: 1px solid gray;
+  padding: 8px;
+}
+
+#job-table tr:nth-child(odd) {
+  background-color: rgb(206, 219, 230);
+}
+
+.time_table_div {
+  margin: auto;
+  width: 100%;
+}
+
+#time_table_ {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+.title_row th {
+  border: 1px solid gray;
+  background-color: rgb(54, 54, 54);
+  padding: 6px;
+}
+
+.day_row th{
+  border: 1px solid gray;
+  background-color: lightgray;
+  text-align: left;
+  padding: 6px;
+}
+
+.subject_data_row td{
+  border: 1px solid gray;
+  padding: 6px;
+
+}
