@@ -1,5 +1,4 @@
 body{
-  max-width: 1080px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -64,9 +63,11 @@ h2 {
 }
 
 #formated_application_ {
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 16px 16px;
+  background-color: aliceblue;
 }
 
 #formated_application_ div {
@@ -83,6 +84,27 @@ h2 {
   margin-top: 0.5%;
   border-radius: 5px;
   border: 1px solid gray
+}
+
+#formated_application_ select, textarea {
+  padding: 8px;
+  font-size: 1.25rem;
+  margin-top: 0.5%;
+  border-radius: 5px;
+  border: 1px solid gray
+}
+
+#formated_application_ textarea {
+  width: 90%;
+}
+
+#formated_application_ input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+#formated_application_input[type="submit"] {
+  cursor: pointer;
 }
 
 #date_of_birth_ {

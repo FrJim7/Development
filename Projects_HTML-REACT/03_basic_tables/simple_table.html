@@ -112,6 +112,7 @@
       </div>
     </form>
   </div>
+
   <!--Styled form-->
   <div id="formated_application_">
     <h2> Submit your Application</h2>
@@ -138,13 +139,34 @@
     <div>
       <label for="position_applied_">Position Applied for</label><br>
       <select id="position_applied_" name="Position Applied" required>
+        <option value=""></option>
         <option value="0">Front End Developer</option>
-        <option value="1">Back End Developer</option>
+        <option value="backend">Back End Developer</option>
         <option value="2">FullStack Developer</option>
         <option value="3">Data Scientis</option>
       </select>
     </div>
 
+    <div>
+      <label for="resume_">Upload Resume</label><br>
+      <input type="file" id="resume_" name="resume_" accept="pdf,.doc,.docx">
+    </div>
+
+    <div>
+      <label for="cover_letter_">Cover Letter</label><br>
+      <textarea id="cover_letter_" name="Cover letter" rows="5" placeholder="Explain what makes you suitable for the job"></textarea>
+    </div>
+
+    <div>
+      <label id="terms_label_" for="terms_">
+        <input type="checkbox" id="terms_" name="Terms"> I Aggre to the terms and Conditions 
+      </label>
+    </div>
+
+    <div>
+      <input id="submit_" type="submit" value="Submit ">
+    </div>
+      
   </div>
 
   </body>
