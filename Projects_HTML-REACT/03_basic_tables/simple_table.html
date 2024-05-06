@@ -88,5 +88,64 @@
     </table>  
   </div>
   
+  <!--Simple Application-->
+  <div id="form_application">
+    <h2>Submit your Application</h2>
+    <form action="process-form.php" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email Adress" required>
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <!--Styled form-->
+  <div id="formated_application_">
+    <h2> Submit your Application</h2>
+    <div>
+      <label for="full_name_">Full Name</label><br>
+      <input type="text" id="full_name_" name="Full_Name" required> 
+    </div>
+
+    <div>
+      <label for="email_">Email</label><br>
+      <input type="email" id="email_" name="Email" required>
+    </div>
+
+    <div>
+      <label for="phone_number_">Phone Number</label><br>
+      <input type="tel" id="phone_number_" name="Phone_Number" required placeholder="+34 686 868 686">
+    </div>
+
+    <div>
+      <label for="date_of_birth_">Date of Birth</label><br>
+      <input type="date" id="date_of_birth_" name="Date_of_Birth" required>
+    </div>
+
+    <div>
+      <label for="position_applied_">Position Applied for</label><br>
+      <select id="position_applied_" name="Position Applied" required>
+        <option value="0">Front End Developer</option>
+        <option value="1">Back End Developer</option>
+        <option value="2">FullStack Developer</option>
+        <option value="3">Data Scientis</option>
+      </select>
+    </div>
+
+  </div>
+
   </body>
 </html>
