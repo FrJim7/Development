@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<!--HEAD START-->
+
+<head>
+  <title>Mockup to Web 2</title>
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Caslon+Display&display=swap"
+    rel="stylesheet">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!--SCRIPT-->
+</head>
+
+<!--BODY START-->
+
+<body>
+  <!--PAGE SECTION-->
+  <div id="page-main">
+    <!--HERO SECTION-->
+    <div id="hero">
+      <div id="topnav-bar">
+        <img id="logo" src="./data/Logo-Artjunks.png" alt="Logo-Artjunks">
+
+
+        <div class="home-menu-icon">
+          <img src="./data/Hamburger Menu.png" alt="Hamburger-Menu-icon">
+        </div>
+
+
+        <div class="home-menu">
+          <button class="close-menu" id="close-menu-icon">
+            <img src="./data/close-512.png" alt="" width="35" height="35">
+          </button>
+          <a class="menu-link">Home</a>
+          <a class="menu-link">About</a>
+          <a class="menu-link">Artist</a>
+          <a class="menu-link">Carrers</a>
+          <a class="menu-link">News</a>
+          <a class="menu-link">Company</a>
+          <button class="menu-link, web-button">Get Started</a>
+        </div>
+      </div>
+
+      <div id="blank-rectangle">
+
+      </div>
+      <div id="hero-title">
+
+      </div>
+      <div id="hero-description">
+
+      </div>
+      <div id="hero-button">
+
+      </div>
+    </div>
+    <!---->
+
+    <!--CONTENT SECTION-->
+  </div id="content">
+
+  </div>
+  <!---->
+  </div>
+  <!--PAGE END-->
+</body>
+
+<script>
+  const inMenu = document.querySelector('.home-menu-icon');
+  const clMenu = document.querySelector('.close-menu');
+  const offScreenMenu = document.querySelector('.home-menu');
+
+  inMenu.addEventListener('click', () => { inMenu.classList.toggle('active'); offScreenMenu.classList.toggle('active'); })
+  document.getElementById("close-menu-icon").onclick = function() {inMenu.classList.toggle('active'); offScreenMenu.classList.toggle('active'); }
+</script>
+
+</html>
