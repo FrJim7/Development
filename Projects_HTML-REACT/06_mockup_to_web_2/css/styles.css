@@ -10,8 +10,8 @@ body {
 
 h1 {
   color: #ffffff;
-  font-family: "Libre Casion Display", sans-serif;
-  font-weight: 400;
+  font-family: "Libre Caslon Display", sans-serif;
+  font-weight: 600;
   font-size: 50px;
   line-height: 61px;
 }
@@ -22,6 +22,7 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
+  margin: 78px 32px;
 }
 
 h3 {
@@ -47,7 +48,7 @@ h3 {
   height: 1024px;
   margin: 0px auto;
   padding: 0px;
-  width: 100%;
+  width: 100% ;
 }
 
 #topnav-bar {
@@ -115,4 +116,59 @@ h3 {
   margin-right: 27px;
   height: 35px;
   width: 35px;
+}
+
+#hero-content {
+  display: flex;
+  flex-direction: column;
+  margin: 184px 32px;
+}
+
+#learn-more-button {
+  margin: 16px 0px;
+
+}
+
+#blank-rectangle {
+  background-color: #ffffff;
+  width: 90px;
+  height: 15px;
+}
+
+/* Content */
+.news-boxes {
+  margin: 32px 32px;
+  margin-top: 78px;
+  margin-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.image {
+  height: 352px;
+  width: 100%;
+}
+
+.subtitle {
+  color: #B7B7B7;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 35px 0px;
+  text-align: left;
+  padding: 0px 16px;
+}
+
+.link {
+  color: #D9852C;
+  font-family: "Inter",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.15px;
+  margin: 18px 0px;
+  margin-left: auto;
+  text-align: left;
+  width: fit-content;
 }
