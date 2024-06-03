@@ -1,0 +1,19 @@
+{
+  "name": "10_review_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Francisco Jimenez",
+  "license": "ISC",
+  "description": "Hello World, Packages and Node",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "md5": "^2.3.0",
+    "mongodb": "^6.7.0"
+  }
+}
