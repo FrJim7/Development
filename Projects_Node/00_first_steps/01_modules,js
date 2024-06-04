@@ -1,0 +1,12 @@
+const names = require('./01_names.js');
+const data = require('./02_alternative_modules.js');
+const sayHi = require('./01_utils.js');
+require('./03_alternative_require.js');
+// import sayHi from './01_utils.js'
+
+sayHi('Susan');
+sayHi(names.kJhon);
+sayHi(names.kPeter);
+
+sayHi(data.singlePerson.name);
+sayHi(data.items[0])
